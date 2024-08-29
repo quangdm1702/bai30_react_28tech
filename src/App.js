@@ -1,12 +1,15 @@
 import './App.css';
-import Lamp from './components/Lamp/Lamp';
+import Cart from './components/Cart/Cart';
+// import Lamp from './components/Lamp/Lamp';
 
 function App() {
   return (
     <>
-      <div>
+      {/* <div>
         <Lamp />
-      </div>
+      </div> */}
+
+      <Cart />
     </>
   );
 }

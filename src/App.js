@@ -1,6 +1,7 @@
 import './App.css';
+import UseEffect1 from './components/UseEffect/UseEffect1';
 // import Cart from './components/Cart/Cart';
-import Model from './components/Model/Model';
+// import Model from './components/Model/Model';
 // import Lamp from './components/Lamp/Lamp';
 
 function App() {
@@ -12,7 +13,9 @@ function App() {
 
       {/* <Cart /> */}
 
-      <Model />
+      {/* <Model /> */}
+
+      <UseEffect1 />
     </>
   );
 }

@@ -1,0 +1,39 @@
+.model {
+  background-color: #00000088;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__body {
+    background-color: #fff;
+    width: 80%;
+    position: relative;
+    padding: 15px;
+    border-radius: 8px;
+  }
+
+  &__close {
+    position: absolute;
+    top: -16px;
+    right: -16px;
+    width: 32px;
+    height: 32px;
+    background-color: #000;
+    border: 0;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  &__content {
+    font-size: 28px;
+  }
+}
